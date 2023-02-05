@@ -1,0 +1,46 @@
+.card {
+    width: 1110px;
+    height: 412px;
+    margin-top: 160px;
+    display: flex;
+    gap: 30px;
+    &-img {
+        position: absolute;
+        margin-left: 915px;
+        margin-top: 880px;
+    }
+}
+
+.cards {
+    width: 350px;
+    height: 412px;
+    text-align: center;
+    &_title {
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #333136;
+        margin-top: 48px;
+    }
+    &_btn {
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        border: none;
+        background-color: #E7816B;
+        margin-top: 50px;
+        &-text {
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &_btn:hover:nth-of-type(2) {
+        cursor: pointer;
+        background-color: #FFAD9B;
+    }
+}

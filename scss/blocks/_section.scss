@@ -1,0 +1,89 @@
+.section {
+    width: 1111px;
+    height: 480px;
+    margin-top: 70px;
+    background-color: #E7816B;
+    border-radius: 15px;
+    display: flex;
+    &_left {
+        width: 540px;
+        padding-top: 161px;
+        margin-left: 95px;
+        &-img {
+            margin-top: -160px;
+            margin-left: -95px;
+            position: absolute;
+        }
+        &-title {
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            color: #fff;
+            position: relative;
+        }
+        &-text {
+            width: 460px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+            margin-top: 32px;
+            position: relative;
+        }
+    }
+    &_right {
+        width: 380px;
+        height: 442px;
+        padding-top: 55px;
+        &-text {
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 26px;
+            color: #fff;
+            opacity: 50%;
+            margin-top: 15px;
+        }
+        &-text:hover:nth-child(1) {
+            content: Rose Caldwell;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        &-btn {
+            width: 380px;
+            height: 1px;
+            margin-top: 11px;
+            background-color: #fff;
+            border: none;
+        }
+        &-btn:nth-child(1) {
+            height: 3px;
+        }
+        &-btn:nth-child(8) {
+            margin-top: 75px;
+        }
+        &--btn {
+            width: 152px;
+            height: 56px;
+            background-color: #fff;
+            border-radius: 8px;
+            border: none;
+            margin-top: 30px;
+            margin-left: 227px;
+            &-text {
+                font-family: 'Jost', sans-serif;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 21px;
+                color: #333136;
+                text-decoration: none;
+            }
+        }
+        &--btn:hover {
+            cursor: pointer;
+            background-color: #FFAD9B;
+        }
+    }
+}
